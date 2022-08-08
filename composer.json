@@ -1,0 +1,23 @@
+{
+    "name": "fmp-dev/power-bi-embedded",
+    "description": "A PowerBI API Interface for PHP",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3|^7.0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Serhii Seroed",
+            "email": "s.seroed@fmp.company"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PowerBiEmbedded\\": "src/"
+        }
+    }
+}
