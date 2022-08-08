@@ -4,13 +4,12 @@ namespace PowerBiEmbedded\Responses;
 
 
 /**
- * Class GetGroupResponse.
+ * Class GetReportInGroupResponse.
  *
  * @package PowerBiEmbedded\Responses
  */
-class GetGroupResponse extends Response
+class GetReportInGroupResponse extends Response
 {
-
 	/**
 	 * Indicates if response should have body.
 	 *
